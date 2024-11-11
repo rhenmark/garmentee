@@ -11,7 +11,7 @@ const HeaderContent = () => {
 
   useEffect(() => {
     const handleHashChange = () => {
-        setActive(window.location.hash.replace("#", ""));
+        setActive(window.location.hash.replace("#", "") || "home");
       };
   
       // Initial hash setting

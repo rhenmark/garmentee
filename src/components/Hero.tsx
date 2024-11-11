@@ -1,6 +1,7 @@
 "use client";
 import { Button } from "@nextui-org/react";
 import { MoveRight } from "lucide-react";
+import Link from "next/link";
 
 const Hero = () => {
   return (
@@ -24,13 +25,19 @@ const Hero = () => {
           a wide selection of raw materials to help you create your perfect
           garment!
         </span>
-        <Button
-          className="bg-secondary text-black h-20 rounded-full w-full lg:w-[480px] text-2xl"
-          size="lg"
-          endContent={<span className="bg-black py-2 px-8 rounded-full ml-4"><MoveRight color="#fff" /></span>}
-        >
-          Explore our Products
-        </Button>
+        <Link href="#products">
+          <Button
+            className="bg-secondary text-black h-20 rounded-full w-full lg:w-[480px] text-2xl"
+            size="lg"
+            endContent={
+              <span className="bg-black py-2 px-8 rounded-full ml-4">
+                <MoveRight color="#fff" />
+              </span>
+            }
+          >
+            Explore our Products
+          </Button>
+        </Link>
       </div>
     </>
   );
