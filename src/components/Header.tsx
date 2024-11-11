@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useState } from "react";
 
 const Header = () => {
-  const [active, setActive] = useState("services");
+  const [active] = useState("services");
 
   return (
     <div className="grid justify-start items-center px-8 grid-flow-col grid-cols-[auto_1fr] min-h-[80px] mt-4">

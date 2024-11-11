@@ -24,7 +24,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold text-white mb-6">Garmentee Clothing Enterprise</h3>
             <p className="text-sm leading-relaxed">
               Delivering excellence in service and innovation since 1990. 
-              We're committed to providing the best solutions for our customers.
+              We{"'"}re committed to providing the best solutions for our customers.
             </p>
             <div className="flex space-x-4 pt-4">
               <a href="#" className="hover:text-white transition-colors">

@@ -1,5 +1,4 @@
 "use client";
-import { Card, CardFooter, Image, Button } from "@nextui-org/react";
 import { Camera, Code, Music, Image as ImageIcon, MessageCircle, FileText, Settings, Star } from 'lucide-react';
 
 
