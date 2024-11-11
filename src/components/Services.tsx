@@ -4,7 +4,7 @@ import { services } from '@/constants/services';
 
 const ServicesSection = () => {
   return (
-    <section className="relative z-10 w-full px-4 py-16 bg-black">
+    <section className="relative z-10 w-full px-4 py-16 bg-black" id="services">
         <div className='w-full max-w-8xl mx-auto px-4 py-16 bg-black'>
       {/* Header */}
       <div className="text-center mb-16">

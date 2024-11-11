@@ -62,7 +62,7 @@ const services = [
       imageUrl: "/services/wed-formal.png"
     },
     {
-      title: "Embroidery",
+      title: "Customise Sports Wear",
       description: "Add a personal touch with our professional embroidery services. We offer custom embroidery for logos, monograms, and decorative designs.",
       icon: <Edit className="w-6 h-6" />,
       features: [

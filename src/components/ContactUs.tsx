@@ -103,7 +103,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className="relative z-20 bg-black text-black w-full p-8 pt-14 grid grid-cols-1 lg:grid-cols-2 pb-20 gap-8">
+    <section className="relative z-20 bg-black text-black w-full p-8 pt-14 grid grid-cols-1 lg:grid-cols-2 pb-20 gap-8" id="contact">
       <div className="space-y-8 ">
         <div className="bg-white p-8 rounded-lg shadow-lg">
           <h3 className="text-2xl font-semibold mb-6">Contact Information</h3>

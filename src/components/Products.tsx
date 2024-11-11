@@ -4,7 +4,7 @@ import { Camera, Code, Music, Image as ImageIcon, MessageCircle, FileText, Setti
 
 const Products = () => {
   return (
-    <section className="relative bg-black min-h-[80dvh] p-10 z-10 text-white">
+    <section className="relative bg-black min-h-[80dvh] p-10 z-10 text-white" id="products">
       <header>
         <h4 className="text-3xl font-bold mb-2">Our Products</h4>
         <span className="text-sm">
